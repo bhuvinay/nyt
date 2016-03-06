@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nv_most_popular"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_most_popular" />
+        <item
+            android:id="@+id/nv_movie_review"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_movie_review" />
+        <item
+            android:id="@+id/nv_geographic_data"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_geographic" />
+        <item
+            android:id="@+id/nv_bestSeller_data"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_best_seller" />
+        <item
+            android:id="@+id/nv_save_content"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_saved_content" />
+        <item
+            android:id="@+id/nv_clear_save_content"
+            android:icon="@mipmap/ic_nav"
+            android:title="@string/label_clear_saved_content" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

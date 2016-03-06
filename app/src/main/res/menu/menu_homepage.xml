@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_more_options"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_text_size_change"
+                android:title="@string/label_change_text_size" />
+            >
+            <item
+                android:id="@+id/action_brighntess_bar_display"
+                android:title="@string/label_change_brightness" />
+            <item
+                android:id="@+id/action_clear_cache"
+                android:title="@string/label_clear_cache" />
+            >
+            <item
+                android:id="@+id/action_clear_saved_images"
+                android:checkable="true"
+                android:title="@string/label_clear_images"
+                android:titleCondensed="Options" />
+            >
+            <item
+                android:id="@+id/action_gmail_fb_login"
+                android:title="@string/label__login"
+                android:titleCondensed="Options" />
+            >
+        </menu>
+    </item>
+
+</menu>

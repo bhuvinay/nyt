@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="V2_BaseAppTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/v2_text_body_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="V2_XXLHeadingStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_xxl</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.7</item>
+    </style>
+
+    <style name="V2_XLHeadingStyle" parent="V2_XXLHeadingStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_xl</item>
+    </style>
+
+    <style name="V2_LHeadingStyle" parent="V2_XXLHeadingStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_l</item>
+    </style>
+
+    <style name="V2_MHeadingStyle" parent="V2_LHeadingStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_m</item>
+    </style>
+
+    <style name="V2_SHeadingStyle" parent="V2_LHeadingStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="V2_TabStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="V2_MMetaDataStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_m</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.3</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="V2_SMetaDataStyle" parent="V2_MMetaDataStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+    </style>
+
+    <style name="V2_TagsStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/v2_theme_primary</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="V2_XSMetaDataStyle" parent="V2_SMetaDataStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_xs</item>
+    </style>
+
+    <style name="V2_LContentStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_l</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.8</item>
+    </style>
+
+    <style name="V2_MContentStyle" parent="V2_LContentStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_m</item>
+    </style>
+
+    <style name="V2_SContentStyle" parent="V2_MContentStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+    </style>
+    <style name="V2_XSContentStyle" parent="V2_MContentStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_xs</item>
+    </style>
+
+    <style name="V2_ViewMoreTextViewStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/v2_theme_primary</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="V2_ActionButtonsNormalStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.7</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="V2_ActionButtonsBoldStyle" parent="V2_ActionButtonsNormalStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="V2_ActionButtonsSelectedStyle" parent="V2_ActionButtonsNormalStyle">
+        <item name="android:textColor">@color/v2_theme_primary</item>
+    </style>
+
+    <style name="V2_ActionButtonsBoldSelectedStyle" parent="V2_ActionButtonsSelectedStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="V2_HamburgerViewStyle">
+        <item name="android:textSize">@dimen/v2_text_sixe_l</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.6</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:listDivider">@color/v2_text_body_color_0.1</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="V2_ActionButtonLargeNormalStyle" parent="V2_BaseAppTextStyle">
+        <item name="android:textColor">@color/v2_theme_primary</item>
+        <item name="android:textSize">@dimen/v2_text_sixe_s</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="V2_ActionButtonLargeSelectedStyle" parent="V2_ActionButtonLargeNormalStyle">
+        <item name="android:background">@color/v2_theme_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ActivityToolbarMenuTheme" parent="DefaultAppCompactActionBarStyle">
+        <item name="actionMenuTextColor">@color/v2_theme_primary</item>
+        <item name="android:textSize">@dimen/v2_text_sixe_l</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="ActivityToolbarMenuThemeStateSelected" parent="DefaultAppCompactActionBarStyle">
+        <item name="actionMenuTextColor">@drawable/ic_splash</item>
+    </style>
+
+    <style name="V2_ErrorMessageStyle" parent="V2_MMetaDataStyle"></style>
+</resources>

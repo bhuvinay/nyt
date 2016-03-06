@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/DefaultAppCompactActionBarStyle</item>
+        <item name="actionBarStyle">@style/DefaultAppCompactActionBarStyle</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimaryDark">@color/v2_text_body_color_0.8</item>
+    </style>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="DefaultAppCompactActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/theme_accent_1</item>
+        <item name="titleTextStyle">@style/DefaultAppCompactActionBarTitleStyle</item>
+        <item name="displayOptions">showTitle</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="height">@dimen/app_toolbar_height</item>
+    </style>
+
+    <style name="DefaultAppCompactActionBarTitleStyle" parent="LargeAppNormalTextStyle">
+        <item name="android:textColor">@color/v2_text_body_color_0.6</item>
+    </style>
+
+    <style name="ButtonPrimaryTheme">
+        <item name="android:layout_height">@dimen/default_app_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">@style/LargeAppBoldTextStyle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonSecondaryTheme">
+        <item name="android:layout_height">@dimen/default_app_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">@style/LargeAppBoldTextStyle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonFacebookTheme">
+        <item name="android:layout_height">@dimen/default_app_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">@style/LargeAppNormalTextStyle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ButtonNativeSignInSignUpTheme">
+        <item name="android:layout_height">@dimen/default_app_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">@style/LargeAppNormalTextStyle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="AppEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingTop">@dimen/input_field_top_padding</item>
+        <item name="android:paddingBottom">@dimen/input_field_bottom_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/InputFieldTextAppearance</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="InputFieldTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="InputFieldHintTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/theme_accent_1</item>
+    </style>
+
+    <style name="InputFieldLightHintTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/body_text_2</item>
+    </style>
+
+    <style name="ContributeAsChoiceStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/MediumAppNormalTextStyle</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">@color/v2_background_white</item>
+    </style>
+
+    <style name="ContributeAsTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/theme_primary_light</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="InputFieldTextAppearance2" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/input_field_error_color</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColorHint">@color/input_field_error_color</item>
+    </style>
+
+    <style name="PrivacyPolicyFooterText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColor">@color/v2_text_body_color_0.6</item>
+        <item name="android:textSize">@dimen/label_text_size_small</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="InputFieldErrorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/input_field_error_color</item>
+    </style>
+
+    <style name="HomePageQuestionTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/question_homepage_color</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Widget.MyApp.HeaderBar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="android:textAppearance">@style/V2_SMetaDataStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TabStyle">
+        <item name="background">@color/theme_accent_1</item>
+        <item name="android:textColor">@color/theme_accent_1</item>
+
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        ...
+        <item name="actionMenuTextColor">@color/theme_accent_1_light</item>
+        ...
+    </style>
+
+    <style name="FeedContentTextAppearanceLarge" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="FeedContentTextAppearanceSmall" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    `
+    <dimen name="text_size_large">23dp</dimen>
+    <dimen name="text_size_small">18dp</dimen>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        ...</style>
+
+    <style name="NoActionBarTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="NoActionBarTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

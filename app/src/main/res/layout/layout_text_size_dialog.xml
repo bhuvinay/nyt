@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/title_text_size"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_Size_dialog_title" />
+
+    <RadioGroup
+        android:id="@+id/rg_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/rb_background"
+            android:buttonTint="@android:color/black"
+            android:padding="10dp"
+            android:text="@string/label_text_size_small" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black">
+
+        </View>
+
+        <RadioButton
+            android:id="@+id/rb_normal_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/rb_background"
+            android:buttonTint="@android:color/black"
+            android:padding="10dp"
+            android:text="@string/label_text_size_normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black">
+
+        </View>
+
+        <RadioButton
+            android:id="@+id/rb_large_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/rb_background"
+            android:buttonTint="@android:color/black"
+            android:padding="10dp"
+            android:text="@string/label_text_size_large" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black">
+
+        </View>
+    </RadioGroup>
+
+
+</LinearLayout>

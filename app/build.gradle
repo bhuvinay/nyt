@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+    defaultConfig {
+        applicationId "com.vgnary.nyt.thenewshour"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    signingConfigs {
+        debug {
+            storeFile file("keys/nyt_app_keys.jks")
+            storePassword "nytnyt"
+            keyAlias "nyt_alias"
+            keyPassword "nytnyt"
+        }
+        release {
+            storeFile file("keys/nyt_app_keys.jks")
+            storePassword "nytnyt"
+            keyAlias "nyt_alias"
+            keyPassword "nytnyt"
+        }
+        buildTypes {
+            debug {
+                debuggable true
+                signingConfig signingConfigs.debug
+            }
+            release {
+                minifyEnabled true
+                debuggable false
+                jniDebuggable false
+                shrinkResources true
+                renderscriptDebuggable false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), file('proguard-rules.pro')
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    dependencies {
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+        testCompile 'junit:junit:4.12'
+        compile 'com.android.support:appcompat-v7:23.1.1'
+        compile 'com.android.support:design:23.1.1'
+        compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+        compile 'com.github.bumptech.glide:glide:3.6.1'
+        compile 'com.android.support:support-annotations:23.1.1'
+        compile 'com.android.support:recyclerview-v7:23.1.1'
+        compile 'com.android.support:cardview-v7:23.1.1'
+        compile 'org.jsoup:jsoup:1.7.3'
+        compile 'com.google.android.gms:play-services-base:8.4.0'
+        compile 'com.google.android.gms:play-services-gcm:8.4.0'
+        compile 'com.google.android.gms:play-services-auth:8.4.0'
+        compile 'com.google.android.gms:play-services-analytics:8.4.0'
+        compile('ch.acra:acra:4.7.0') {
+            exclude group: 'org.json'
+        }
+        compile 'de.greenrobot:eventbus:2.4.0'
+        compile 'com.j256.ormlite:ormlite-core:4.48'
+        compile 'com.j256.ormlite:ormlite-android:4.48'
+        compile 'com.facebook.rebound:rebound:0.3.8'
+
+        debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3.1' // or 1.4-beta1
+        releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1' // or 1.4-beta1
+        testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1' // or 1.4-beta1
+        debugCompile 'com.facebook.stetho:stetho:1.3.0'
+        debugCompile 'com.facebook.stetho:stetho-okhttp:1.3.0'
+        debugCompile 'com.squareup.okhttp:okhttp:2.7.2'
+        compile 'org.apache.httpcomponents:httpcore:4.3.2'
+        compile 'org.apache.httpcomponents:httpmime:4.3.5'
+
+    }
+}

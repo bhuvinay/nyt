@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="v2_theme_primary">#000000</color>
+    <color name="v2_theme_primary_dark_1">#000000</color>
+    <color name="v2_theme_primary_dark_2">#000000</color>
+    <color name="v2_highlight_color">#ff5232</color>
+
+    <color name="v2_background_gray">#ededed</color>
+    <color name="v2_background_gray_0.5">#f7f6f6</color>
+    <color name="v2_background_white">@color/white</color>
+
+    <color name="v2_text_body_color">#000</color>
+    <color name="v2_text_body_color_0.9">#E5000000</color>
+    <color name="v2_text_body_color_0.8">#CC000000</color>
+    <color name="v2_text_body_color_0.7">#B2000000</color>
+    <color name="v2_text_body_color_0.6">#99000000</color>
+    <color name="v2_text_body_color_0.5">#7F000000</color>
+    <color name="v2_text_body_color_0.4">#66000000</color>
+    <color name="v2_text_body_color_0.3">#4c000000</color>
+    <color name="v2_text_body_color_0.2">#33000000</color>
+    <color name="v2_text_body_color_0.1">#19000000</color>
+    <color name="v2_background_gray_0.6">#9A5e5e5e</color>
+
+</resources>

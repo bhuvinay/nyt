@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="v2_text_sixe_xxl">20dp</dimen>
+    <dimen name="v2_text_sixe_xl">18dp</dimen>
+    <dimen name="v2_text_sixe_l">16dp</dimen>
+    <dimen name="v2_text_sixe_m">14dp</dimen>
+    <dimen name="v2_text_sixe_s">12dp</dimen>
+    <dimen name="v2_text_sixe_xs">10dp</dimen>
+
+    <dimen name="help_showcase_view_circle_width">60dp</dimen>
+</resources>

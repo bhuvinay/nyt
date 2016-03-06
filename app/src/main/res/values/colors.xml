@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#f3f2f2</color>
+    <color name="theme_primary">#000000</color>
+    <color name="theme_primary_light">#000000</color>
+    <color name="theme_primary_dark">#072146</color>
+    <color name="theme_primary_dark_1">#000000</color>
+    <color name="theme_accent_1">#000000</color>
+    <color name="theme_accent_2">#acc9c5</color>
+    <color name="theme_accent_3">#22acc9c5</color>
+    <color name="theme_accent_1_light">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="body_text_1">#5d5d5d</color>
+    <color name="body_text_2">#5e5e5e</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_4">#5e5e5e</color>
+    <color name="body_text_disabled">#44000000</color>
+    <color name="input_field_normal_bottom_border">#555e5e5e</color>
+
+    <color name="white">#fff</color>
+    <color name="input_field_error_color">#e6ff5232</color>
+
+    <color name="shiksha_logo_color_1">#2f6382</color>
+    <color name="shiksha_logo_color_2">#25556a</color>
+    <color name="facebook_logo_color_1">#2a518c</color>
+    <color name="facebook_logo_color_2">#072146</color>
+    <color name="app_dialog_button_text_color">#179ca2</color>
+    <color name="white_light_1">#afff</color>
+
+    <!-- FloatingEditText Default -->
+    <color name="floating_edit_text_color">#ffc8c8c8</color>
+    <color name="floating_edit_text_highlighted_color">#ff3f51b5</color>
+    <color name="floating_edit_text_error_color">#ffff5232</color>
+
+
+    <color name="home_page_span_color">#2a518c</color>
+
+    <color name="hamburger_bg_color">#55e6f4f1</color>
+    <color name="hamburger_item_bg">#e6f4f1</color>
+    <color name="hamburger_item_bg_2">#FF000000</color>
+    <color name="hamburger_item_selected_bg">#2d8c8c8c</color>
+
+    <color name="to_follow_button_bg_color">#338c8c8c</color>
+
+    <color name="comment_answer_button_bg_primary">#ff7c74</color>
+    <color name="comment_answer_button_bg_secondary">#aaff7c74</color>
+    <color name="comment_answer_button_bg_secondary_1">#33ff7c74</color>
+
+    <color name="question_discussion_header_bar_bg_color">#eaf8ff</color>
+    <color name="tag_bg_color">#e8f0ff</color>
+    <color name="question_discussion_button_panel_divider_bg_color">#555e5e5e</color>
+    <color name="question_homepage_color">#19758e</color>
+
+    <color name="homescreen_background_color">#266e79</color>
+
+    <color name="status_bar_color">#006969</color>
+    <color name="post_question_hint_color">#6e5d5d5d</color>
+    <color name="input_question_disabled_color">#995e5e5e</color>
+    <color name="add_topic_button_boundry_color">#555e5e5e</color>
+    <color name="similar_questions_background_color">#115e5e5e</color>
+    <color name="add_topic_search_adapter_item_color">#108c8c8c</color>
+
+    <color name="unfollow_button_background">#c9c7c7</color>
+    <color name="default_title_indicator_footer_color">#ffffff</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_circle_indicator_fill_color">#FFF</color>
+    <color name="default_circle_indicator_page_color">#000</color>
+    <color name="default_circle_indicator_stroke_color">#179ca2</color>
+    <color name="hamburger_bg_header_selected_color">#ffb2f4f4</color>
+    <color name="darkgray">#d3d3d3</color>
+    <color name="grey_toolbar">#848185</color>
+</resources>

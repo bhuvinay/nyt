@@ -1,0 +1,76 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="default_app_button_height">50dp</dimen>
+    <dimen name="input_field_top_padding">5dp</dimen>
+    <dimen name="input_field_bottom_padding">5dp</dimen>
+    <dimen name="input_field_background_bottom_strip_height">1px</dimen>
+
+
+    <dimen name="label_text_size_small">12dp</dimen>
+    <dimen name="label_text_size_medium">14dp</dimen>
+    <dimen name="label_text_size_large">16dp</dimen>
+    <dimen name="initial_box_default_text_size">30dp</dimen>
+
+    <dimen name="label_new_member_top_margin">20dp</dimen>
+    <dimen name="dialog_close_btn_dimen">15dp</dimen>
+    <dimen name="dialog_message_margin_bottom">20dp</dimen>
+    <dimen name="dialog_message_margin_top">10dp</dimen>
+    <dimen name="dialog_message_margin_left_right">25dp</dimen>
+    <dimen name="dialog_button_layout_height">60dp</dimen>
+    <dimen name="dialog_divider_view_thin">1dp</dimen>
+
+    <dimen name="dialog_top_position">100dp</dimen>
+
+    <dimen name="input_field_error_icon_width">10dp</dimen>
+    <dimen name="input_field_error_icon_height">10dp</dimen>
+
+    <dimen name="input_field_show_password_icon_width">18dp</dimen>
+    <dimen name="input_field_show_password_icon_height">12dp</dimen>
+
+    <!-- FloatingEditText Default -->
+    <dimen name="floating_edit_text_underline_height">1dp</dimen>
+    <dimen name="floating_edit_text_underline_highlighted_height">2dp</dimen>
+
+    <dimen name="footer_view_default_height">70dp</dimen>
+    <dimen name="header_view_default_height">35dp</dimen>
+    <dimen name="footer_view_default_padding_bottom">10dp</dimen>
+
+    <dimen name="ask_question_view_height">45dp</dimen>
+    <dimen name="app_toolbar_height">56dp</dimen>
+    <dimen name="app_toolbar_height_1">40dp</dimen>
+    <dimen name="question_view_more_height">20dp</dimen>
+    <dimen name="swipe_to_refresh_sling_shot_distance">100dp</dimen>
+    <dimen name="tag_people_to_follow_default_scroll">20dp</dimen>
+
+
+    <dimen name="default_title_indicator_text_size">14dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">12dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">0dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="home_screen_toolbar_y">155dp</dimen>
+    <dimen name="profile_builder_checkbox_width">35dp</dimen>
+    <dimen name="profile_builder_checkbox_height">35dp</dimen>
+    <dimen name="search_icon_size">25dp</dimen>
+    <dimen name="dialog_context_menu_width">250dp</dimen>
+    <dimen name="view_more_bug_fill_height">50dp</dimen>
+
+    <dimen name="share_item_drawable_padding">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_Size">20sp</dimen>
+    <dimen name="text_size_small_summary">10dp</dimen>
+    <dimen name="text_size_small_heading">15dp</dimen>
+    <dimen name="text_size_large_summary">14dp</dimen>
+    <dimen name="text_size_large_heading">19dp</dimen>
+    <dimen name="text_size_normal_summary">12dp</dimen>
+    <dimen name="text_size_normal_heading">17dp</dimen>
+    <dimen name="text_Size_dialog_title">20dp</dimen>
+</resources>

@@ -1,0 +1,43 @@
+#
+# generated on 2016/01/27 04:34:39
+#
+# --table-start--
+dataClass=com.vgnary.nyt.thenewshour.models.database.NewsFeedData
+tableName=news_feed_table
+# --table-fields-start--
+# --field-start--
+fieldName=entityResponse
+columnName=entity_name
+# --field-end--
+# --field-start--
+fieldName=entityType
+columnName=entity_type
+unique=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgnary.nyt.thenewshour.models.database.SavedFeedData
+tableName=savedfeeddata
+# --table-fields-start--
+# --field-start--
+fieldName=newsTitle
+columnName=savedfeedTitle
+# --field-end--
+# --field-start--
+fieldName=newsSummary
+columnName=savedfeedSummary
+# --field-end--
+# --field-start--
+fieldName=isFeedSaved
+columnName=issaved
+# --field-end--
+# --field-start--
+fieldName=newsUrl
+columnName=savedfeedUrl
+unique=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

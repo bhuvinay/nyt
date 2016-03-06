@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_parent_view"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+    <include xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/app_bar_include"
+        layout="@layout/tool_bar_home_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <include
+        layout="@layout/layout_activity_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar_include" />
+
+
+
+    <com.vgnary.nyt.thenewshour.viewHolders.AppDrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar_include"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/layout_nav_view_header"
+            app:menu="@menu/menu_homepage_drawer" />
+
+    </com.vgnary.nyt.thenewshour.viewHolders.AppDrawerLayout>
+</RelativeLayout>

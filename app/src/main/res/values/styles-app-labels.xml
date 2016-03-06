@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/v2_text_body_color_0.6</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="SmallAppNormalTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="SmallAppBoldTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_small</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SmallAppThemedTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/theme_accent_1</item>
+    </style>
+
+    <style name="MediumAppNormalTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MediumAppBoldTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/body_text_1</item>
+    </style>
+
+    <style name="MediumAppThemedTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/theme_accent_1</item>
+    </style>
+
+    <style name="LargeAppNormalTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_large</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LargeAppBoldTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LargeAppDialogBoldTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LargeAppThemedTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textSize">@dimen/label_text_size_large</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/theme_accent_1</item>
+    </style>
+
+    <style name="SquareUserNameInitialTextStyle" parent="BaseAppTextStyle">
+        <item name="android:textColor">@color/v2_text_body_color_0.3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/initial_box_default_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ViewMoreTextViewStyle" parent="MediumAppBoldTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/question_view_more_height</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/body_text_1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textColor">@color/question_homepage_color</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+    </style>
+</resources>
